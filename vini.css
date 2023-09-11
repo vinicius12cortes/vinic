@@ -1,0 +1,133 @@
+/* Reset de Estilos para zerar as margens e preenchimentos padrão do navegador */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #008c9e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-left: 10px; /* Adicione margem à esquerda para separar o texto da imagem */
+}
+
+header img {
+  max-height: 50px; /* Defina a altura máxima da imagem para evitar que ela fique muito grande */
+  margin-right: 10px; /* Adicione margem à direita para separar a imagem do texto */
+}
+
+nav {
+  background-color: #006465;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #343838;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto {
+  margin-bottom: 30px;
+}
+
+.produto img {
+  max-width: 250px;
+}
+
+.produto h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.produto p {
+  font-size: 16px;
+}
+
+.produto .preco {
+  font-size: 20px;
+  font-weight: bold;
+  color: #005f6b;
+}
+
+button {
+  background-color: #005f6b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0e0036;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #008c9e;
+  color: white;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #005f6b;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #0e0036;
+}
+
+/* Estilize o botão "Entrar" */
+button[type="submit"] {
+  width: 80px; /* Largura desejada */
+  height: 40px; /* Altura desejada */
+  font-size: 15px; /* Tamanho da fonte desejado */
+  /* Outros estilos, como cores, bordas etc., podem ser adicionados aqui */
+  text-align: center;
+}

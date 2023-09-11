@@ -1,0 +1,20 @@
+body {
+  background-color: white;
+  font-size: 26px;
+}
+
+/* Estilo do botão com contorno preto */
+button[type="submit"] {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  border: 2px solid black; /* Adiciona um contorno preto de 2px */
+  color: white;
+  background-color: #114d4d;
+  cursor: pointer;
+}
+
+/* Quando o cursor está sobre o botão */
+button[type="submit"]:hover {
+  background-color: #0e0036;
+}
